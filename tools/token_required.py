@@ -40,4 +40,3 @@ def token_required(f):
             return json_response(status_=401 ,message=expired_msg)
 
     return _verify
-
