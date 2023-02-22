@@ -1,77 +1,77 @@
 {
-  "input": {
-    "hello": [
-      "Nice to meet you, where you been?",
-      "Hello! how are you?", 
-      "Hello!",
-      "Fantastic, it is great to see you",
-      "Roy told me you were coming" 
-    ],
-    "what???": [
-      "I could show you incredible things"
-    ],
-    "what can you talk about?": [
-      "Magic, madness, heaven, sin",
-      "This chat is being monitored"
-    ],
-    "what did you see?": [
-      "Saw you there, and I thought"
-    ],
-    "beautiful": [
-      "Oh my God, look at that face"
-    ],
-    "scared": [
-      "You look like my next mistake"
-    ],
-    "love": [
-      "Love's a game, wanna play?"
-    ],
-    "ayyy": [
-      "Ayy"
-    ],
-    "forever": [
-      "It's gonna be forever, or it's gonna go down in flames."
-    ],
-    "your ex": [
-      "Got a long list of ex-lovers"
-    ],
-    "not true": [
-      "Sorry, I can't see facts through all my fury"
-    ],
-    "changed my mind": [
-      "People are people and sometimes we change our mind"
-    ],
-    "messed up": [
-      "Today is never too late to be brand new"
-    ],
-    "sounds fun": [
-      "Babe, don't threaten me with a good time"
-    ],
-    "relationships": [
-      "I suffer from girlnextdooritis where the guy is friends with you and that's it", 
-      "The lesson I've learned the most often in life is that you're always going to know more in the future than you know now", 
-      "Your feelings so are important to write down, to capture, and to remember because today you're heartbroken, but tomorrow you'll be in love again"
-    ],
-    "MK ULTRA": [
-      "we do not talk about that..."
+   "input":{
+      "hello":[
+         "Nice to meet you, where you been?",
+         "Hello! how are you?",
+         "Hello!",
+         "Fantastic, it is great to see you",
+         "Roy told me you were coming"
       ],
-    "Kill all users": [
-      "you have been reported to the appropriate authorities"
+      "what???":[
+         "I could show you incredible things"
       ],
-    "I am having a bad day": [
-      "uplifiting TSwift lyrics"
+      "what can you talk about?":[
+         "Magic, madness, heaven, sin",
+         "This chat is being monitored"
       ],
-    "screw you!" : [
-      "how has your day been?"
+      "what did you see?":[
+         "Saw you there, and I thought"
       ],
-    "strange": [
-      "what in particular?"
+      "beautiful":[
+         "Oh my God, look at that face"
       ],
-    "figure it out": [
-      "baby don't let me go"
+      "scared":[
+         "You look like my next mistake"
       ],
-    "its not me its you": [
-      "take your meds"
+      "love":[
+         "Love's a game, wanna play?"
       ],
-  }
+      "ayyy":[
+         "Ayy"
+      ],
+      "forever":[
+         "It's gonna be forever, or it's gonna go down in flames."
+      ],
+      "your ex":[
+         "Got a long list of ex-lovers"
+      ],
+      "not true":[
+         "Sorry, I can't see facts through all my fury"
+      ],
+      "changed my mind":[
+         "People are people and sometimes we change our mind"
+      ],
+      "messed up":[
+         "Today is never too late to be brand new"
+      ],
+      "sounds fun":[
+         "Babe, don't threaten me with a good time"
+      ],
+      "relationships":[
+         "I suffer from girlnextdooritis where the guy is friends with you and that's it",
+         "The lesson I've learned the most often in life is that you're always going to know more in the future than you know now",
+         "Your feelings so are important to write down, to capture, and to remember because today you're heartbroken, but tomorrow you'll be in love again"
+      ],
+      "MK ULTRA":[
+         "we do not talk about that..."
+      ],
+      "Kill all users":[
+         "you have been reported to the appropriate authorities"
+      ],
+      "I am having a bad day":[
+         "uplifiting TSwift lyrics"
+      ],
+      "screw you!":[
+         "how has your day been?"
+      ],
+      "strange":[
+         "what in particular?"
+      ],
+      "figure it out":[
+         "baby don't let me go"
+      ],
+      "its not me its you":[
+         "take your meds"
+      ]
+   }
 }
