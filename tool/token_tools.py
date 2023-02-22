@@ -1,7 +1,7 @@
 import jwt
 import datetime
 from flask import  g
-from tools.logging import logger
+from tool.logging import logger
 
 
 def create_token(token_data):

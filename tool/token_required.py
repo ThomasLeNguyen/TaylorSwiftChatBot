@@ -3,9 +3,9 @@ from functools import wraps
 from flask import request, redirect, g
 from flask_json import FlaskJSON, JsonError, json_response, as_json
 
-from tools.logging import logger
+from tool.logging import logger
 
-from tools.get_aws_secrets import get_secrets
+from tool.get_aws_secrets import get_secrets
 
 
 def token_required(f):

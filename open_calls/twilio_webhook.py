@@ -4,7 +4,7 @@ from flask_json import FlaskJSON, JsonError, json_response, as_json
 from os.path import exists
 
 
-from tools.logging import logger
+from tool.logging import logger
 from things.actors import actor
 
 
@@ -54,7 +54,7 @@ def handle_request():
 
     message = g.sms_client.messages.create(
                      body=response,
-                     from_=yml_configs['twillio']['phone_number'],
+                     from_=yml_configs['twilio']['phone_number'],
                      to=request.form['From'])
     return json_response( status = "ok" )
 

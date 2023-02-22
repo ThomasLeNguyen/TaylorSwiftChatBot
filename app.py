@@ -7,14 +7,11 @@ import datetime
 import bcrypt
 import traceback
 
+from tool.token_required import token_required
+from tool.get_aws_secrets import get_secrets
+from tool.get_twilio_client import get_sms_client
 
-from db_con import get_db_instance, get_db
-
-from tools.token_required import token_required
-from tools.get_aws_secrets import get_secrets
-from tools.get_twillio_client import get_sms_client
-
-from tools.logging import logger
+from tool.logging import logger
 
 ERROR_MSG = "Ooops.. Didn't work!"
 
@@ -74,6 +71,7 @@ def exec_proc(proc_name):
     #see if we can execute it..
     resp = ""
     try:
+        proc_name = 'twilio_webhook'
         fn = getattr(__import__('open_calls.'+proc_name), proc_name)
         resp = fn.handle_request()
     except Exception as err:
@@ -85,7 +83,5 @@ def exec_proc(proc_name):
 
     return resp
 
-
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=80)
-

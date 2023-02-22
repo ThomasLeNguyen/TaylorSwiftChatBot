@@ -14,3 +14,4 @@ def get_sms_client():
     sms_client = client = Client(g.secrets['twilio_account'], g.secrets['twilio_token'])
 
     return sms_client
+
