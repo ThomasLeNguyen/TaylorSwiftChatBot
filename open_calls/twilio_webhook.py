@@ -4,7 +4,7 @@ from flask_json import FlaskJSON, JsonError, json_response, as_json
 from os.path import exists
 
 
-from tools.logging import logger
+from tool.logging import logger
 from things.chat import chat
 
 
