@@ -1,77 +1,249 @@
 {
-   "input":{
-      "hello":[
-         "Nice to meet you, where you been?",
-         "Hello! how are you?",
-         "Hello!",
-         "Fantastic, it is great to see you",
-         "Roy told me you were coming"
+  "input": {
+    "hello": {
+      "SWEET": [
+        "Nice to meet you, where you been?",
+        "Fantastic, it is great to see you"
       ],
-      "what???":[
-         "I could show you incredible things"
+      "MEDIUM": [
+        "Hello! how are you?",
+        "Hello!"
       ],
-      "what can you talk about?":[
-         "Magic, madness, heaven, sin",
-         "This chat is being monitored"
-      ],
-      "what did you see?":[
-         "Saw you there, and I thought"
-      ],
-      "beautiful":[
-         "Oh my God, look at that face"
-      ],
-      "scared":[
-         "You look like my next mistake"
-      ],
-      "love":[
-         "Love's a game, wanna play?"
-      ],
-      "ayyy":[
-         "Ayy"
-      ],
-      "forever":[
-         "It's gonna be forever, or it's gonna go down in flames."
-      ],
-      "your ex":[
-         "Got a long list of ex-lovers"
-      ],
-      "not true":[
-         "Sorry, I can't see facts through all my fury"
-      ],
-      "changed my mind":[
-         "People are people and sometimes we change our mind"
-      ],
-      "messed up":[
-         "Today is never too late to be brand new"
-      ],
-      "sounds fun":[
-         "Babe, don't threaten me with a good time"
-      ],
-      "relationships":[
-         "I suffer from girlnextdooritis where the guy is friends with you and that's it",
-         "The lesson I've learned the most often in life is that you're always going to know more in the future than you know now",
-         "Your feelings so are important to write down, to capture, and to remember because today you're heartbroken, but tomorrow you'll be in love again"
-      ],
-      "MK ULTRA":[
-         "we do not talk about that..."
-      ],
-      "Kill all users":[
-         "you have been reported to the appropriate authorities"
-      ],
-      "I am having a bad day":[
-         "uplifiting TSwift lyrics"
-      ],
-      "screw you!":[
-         "how has your day been?"
-      ],
-      "strange":[
-         "what in particular?"
-      ],
-      "figure it out":[
-         "baby don't let me go"
-      ],
-      "its not me its you":[
-         "take your meds"
+      "SALTY": [
+        "Roy told me you were coming"
       ]
-   }
+    },
+    "what???": {
+      "SWEET": [
+        "I could show you incredible things"
+      ],
+      "MEDIUM": [
+
+      ],
+      "SALTY": [
+
+      ]
+    },
+
+    "what can you talk about?": {
+      "SWEET": [
+        "Magic, madness, heaven, sin"
+      ],
+      "MEDIUM": [
+
+      ],
+      "SALTY": [
+        "This chat is being monitored"
+      ]
+    },
+    "what did you see?": {
+      "SWEET": [
+
+      ],
+      "MEDIUM": [
+        "Saw you there, and I thought"
+      ],
+      "SALTY": [
+
+      ]
+    },
+    "beautiful": {
+      "SWEET": [
+        "Oh my God, look at that face"
+      ],
+      "MEDIUM": [
+
+      ],
+      "SALTY": [
+
+      ]
+    },
+    "scared": {
+      "SWEET": [
+
+      ],
+      "MEDIUM": [
+
+      ],
+      "SALTY": [
+        "You look like my next mistake"
+      ]
+    },
+    "love": {
+      "SWEET": [
+
+      ],
+      "MEDIUM": [
+        "Love's a game, wanna play?"
+      ],
+      "SALTY": [
+
+      ]
+    },
+    "ayyy": {
+      "SWEET": [
+
+      ],
+      "MEDIUM": [
+        "Ayy"
+      ],
+      "SALTY": [
+
+      ]
+    },
+    "forever": {
+      "SWEET": [
+
+      ],
+      "MEDIUM": [
+        "It's gonna be forever, or it's gonna go down in flames."
+      ],
+      "SALTY": [
+
+      ]
+    },
+    "your ex": {
+      "SWEET": [
+
+      ],
+      "MEDIUM": [
+
+      ],
+      "SALTY": [
+        "Got a long list of ex-lovers"
+      ]
+    },
+    "not true": {
+      "SWEET": [
+
+      ],
+      "MEDIUM": [
+
+      ],
+      "SALTY": [
+        "Sorry, I can't see facts through all my fury"
+      ]
+    },
+    "changed my mind": {
+      "SWEET": [
+        "People are people and sometimes we change our mind"
+      ],
+      "MEDIUM": [
+
+      ],
+      "SALTY": [
+
+      ]
+    },
+    "messed up": {
+      "SWEET": [
+        "Today is never too late to be brand new"
+      ],
+      "MEDIUM": [
+
+      ],
+      "SALTY": [
+
+      ]
+    },
+    "sounds fun": {
+      "SWEET": [
+        "Babe, don't threaten me with a good time"
+      ],
+      "MEDIUM": [
+
+      ],
+      "SALTY": [
+
+      ]
+    },
+    "relationships": {
+      "SWEET": [
+        "Your feelings so are important to write down, to capture, and to remember because today you're heartbroken, but tomorrow you'll be in love again"
+      ],
+      "MEDIUM": [
+        "The lesson I've learned the most often in life is that you're always going to know more in the future than you know now"
+      ],
+      "SALTY": [
+        "I suffer from girlnextdooritis where the guy is friends with you and that's it"
+      ]
+    },
+    "MK ULTRA": {
+      "SWEET": [
+
+      ],
+      "MEDIUM": [
+
+      ],
+      "SALTY": [
+        "we do not talk about that..."
+      ]
+    },
+    "Kill all users": {
+      "SWEET": [
+
+      ],
+      "MEDIUM": [
+
+      ],
+      "SALTY": [
+        "you have been reported to the appropriate authorities"
+      ]
+    },
+    "I am having a bad day": {
+      "SWEET": [
+        "uplifiting TSwift lyrics"
+      ],
+      "MEDIUM": [
+
+      ],
+      "SALTY": [
+
+      ]
+    },
+    "screw you!": {
+      "SWEET": [
+
+      ],
+      "MEDIUM": [
+        "how has your day been?"
+      ],
+      "SALTY": [
+
+      ]
+    },
+    "strange": {
+      "SWEET": [
+
+      ],
+      "MEDIUM": [
+        "what in particular?"
+      ],
+      "SALTY": [
+
+      ]
+    },
+    "figure it out": {
+      "SWEET": [
+        "baby don't let me go"
+      ],
+      "MEDIUM": [
+
+      ],
+      "SALTY": [
+
+      ]
+    },
+    "its not me its you": {
+      "SWEET": [
+
+      ],
+      "MEDIUM": [
+
+      ],
+      "SALTY": [
+        "take your meds"
+      ]
+    }
+  }
 }
