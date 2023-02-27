@@ -34,9 +34,9 @@ class chat(actor):
         else:
             msg = None
             for i in range( len(CORPUS[ "misc corpus" ]) ):
-            msg = random.choice( CORPUS[ "misc corpus" ] )
-            if msg not in self.prev_msgs:
-                break
+                msg = random.choice( CORPUS[ "misc corpus" ] )
+                if msg not in self.prev_msgs:
+                    break
 
         if msg == None:
             return [ random.choice( CORPUS[ "misc corpus" ] ) ]
