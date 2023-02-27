@@ -29,15 +29,17 @@ class chat(actor):
             self.salty_scale =  "SWEET"
 
         pos_tags =  nltk.pos_tag( nltk.word_tokenize(msg_input))
-
-        msg = None
-        for i in range( len(CORPUS[ "input" ]) ):
-            msg = random.choice( CORPUS[ "input" ] )
-            if msg not in self.prev_msgs:
-                break
+	  if msg_input in CORPUS['input']:
+		return random.choice(CORPUS['input'][msg_input])]
+	  else:
+            msg = None
+            for i in range( len(CORPUS[ "misc corpus" ]) ):
+                msg = random.choice( CORPUS[ "misc corpus" ] )
+                if msg not in self.prev_msgs:
+                    break
 
         if msg == None:
-            return [ random.choice( CORPUS[ "input" ] ) ]
+            return [ random.choice( CORPUS[ "misc corpus" ] ) ]
         else:
             return [ msg ]
 
