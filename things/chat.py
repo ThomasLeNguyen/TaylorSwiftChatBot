@@ -30,7 +30,7 @@ class chat(actor):
 
         pos_tags =  nltk.pos_tag( nltk.word_tokenize(msg_input))
         if msg_input in CORPUS['input']:
-            return random.choice(CORPUS['input'][msg_input])]
+            return random.choice(CORPUS['input'][msg_input])
         else:
             msg = None
             for i in range( len(CORPUS[ "misc corpus" ]) ):
