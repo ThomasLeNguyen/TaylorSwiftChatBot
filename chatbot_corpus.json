@@ -5,14 +5,18 @@
         "Nice to meet you, where you been?",
         "Fantastic, it is great to see you",
         "i'm so glad you made time to see me",
-        "how's life? tell me how's your family?"
+        "how's life? tell me how's your family?",
+        "hey, hey, hey"
       ],
       "MEDIUM": [
         "Hello! how are you?",
-        "Hello!"
+        "Hello!",
+        "hey, hey, hey"
       ],
       "SALTY": [
-        "Roy told me you were coming"
+        "Roy told me you were coming",
+        "it's been a while since i have even heard from you",
+        "i should just tell you to leave"
       ]
     },
     "what???": {
@@ -37,11 +41,13 @@
       ],
       "MEDIUM": [
         "flashback to the night when you said to me",
-        "my mind forgets to remind me you're a bad idea"
+        "my mind forgets to remind me you're a bad idea",
+        "we never go out of style"
       ],
       "SALTY": [
         "if the chain is on your door I understand",
-        "but with you i know it's no good"
+        "but with you i know it's no good",
+        "we were built to fall apart"
       ]
     },
     "what can you talk about?|talk about": {
@@ -91,14 +97,20 @@
     "love": {
       "SWEET": [
         "you are the best thing that's ever been mine",
-        "if we loved again i swear i'd love you right"
+        "if we loved again i swear i'd love you right",
+        "like any great love, it keeps you guessing",
+        "like any real love, it's ever-changing",
+        "you're the king, baby, i'm your queen",
+        "like any true love, it drives you crazy"
       ],
       "MEDIUM": [
         "Love's a game, wanna play?"
       ],
       "SALTY": [
         "wonderin' why we bother with love if it never lasts",
-        "you gave me all your love and all i gave you was goodbye"
+        "you gave me all your love and all i gave you was goodbye",
+        "oh my god, who is she?",
+        "i get drunk on jealousy"
       ]
     },
     "ayyy": {
@@ -114,13 +126,13 @@
     },
     "forever": {
       "SWEET": [
-
+        "we never go out of style"
       ],
       "MEDIUM": [
         "It's gonna be forever, or it's gonna go down in flames."
       ],
       "SALTY": [
-
+        "we were built to fall apart"
       ]
     },
     "your ex": {
@@ -165,6 +177,7 @@
 
       ],
       "SALTY": [
+        "i've been picking up the pieces of the mess you made"
 
       ]
     },
@@ -188,7 +201,7 @@
         "don't forget, don't forget about me"
       ],
       "SALTY": [
-
+        "we were built to fall apart"
       ]
     },
     "relationships": {
@@ -243,11 +256,13 @@
         "do you remember all the city lights on the water?"
       ],
       "MEDIUM": [
-        "yes yes this is what i thought about"
+        "yes yes this is what i thought about",
+        "got nothin' in my brain"
       ],
       "SALTY": [
         "and i remember that fight",
-        "i'd go back in time and change it but i can't"
+        "i'd go back in time and change it but i can't",
+        "got nothin' in my brain"
       ]
     },
     "how are you|how've you been|how have you been": {
@@ -274,24 +289,37 @@
     },
     "I am having a bad day": {
       "SWEET": [
-        "uplifiting TSwift lyrics"
+        "uplifiting TSwift lyrics",
+        "and the haters gonna hate, hate, hate, hate, hate"
       ],
       "MEDIUM": [
-
+        "and the haters gonna hate, hate, hate, hate, hate"
       ],
       "SALTY": [
 
       ]
     },
-    "screw you!": {
+    "screw you": {
       "SWEET": [
-
+        "when you started crying, baby, i did too",
+        "and the haters gonna hate, hate, hate, hate, hate",
+        "i shake it off, i shake it off"
       ],
       "MEDIUM": [
-        "how has your day been?"
+        "how has your day been?",
+        "when you started crying, baby, i did too",
+        "i've been picking up the pieces of the mess you made",
+        "and the haters gonna hate, hate, hate, hate, hate",
+        "i shake it off, i shake it off",
+        "you always knew how to push my buttons",
+        "baby, now we've got bad blood"
+
       ],
       "SALTY": [
-
+        "we were built to fall apart",
+        "and the haters gonna hate, hate, hate, hate, hate",
+        "you always knew how to push my buttons",
+        "baby, now we've got bad blood"
       ]
     },
     "strange": {
@@ -318,15 +346,31 @@
     },
     "its not me its you": {
       "SWEET": [
+        "baby, now we've got bad blood"
 
+      ],
+      "MEDIUM": [
+        "baby, now we've got bad blood"
+
+      ],
+      "SALTY": [
+        "take your meds",
+        "baby, now we've got bad blood"
+
+      ]
+    },
+    "travel|vacation": {
+      "SWEET": [
+        "grab your passport and my hand"
       ],
       "MEDIUM": [
 
       ],
       "SALTY": [
-        "take your meds"
+
       ]
     },
+
     "misc corpus": [
       "oh-oh oh-oh",
       "you were in college working part time waitin' tables",
