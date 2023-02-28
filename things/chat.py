@@ -40,7 +40,8 @@ class chat(actor):
         for i in range (len(CORPUS['input'])):
             for x in tokenizedinput:
                 if x in CORPUS['input']:
-                    print([self.salty_scale])
+                    print([self.salty_scale])]
+                    print([self.salty_scale][0][0][0])
                     size = len([self.salty_scale][0][0][0])
                     print(size)
                     if size != 1:
