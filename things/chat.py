@@ -42,7 +42,10 @@ class chat(actor):
                 if x in CORPUS['input']:
                     size = len([self.salty_scale][0])
                     print(size)
-                    return random.choice([self.salty_scale][random.randint(0,size-1)])
+                    if size != 1:
+                        return random.choice([self.salty_scale][random.randint(0,size-1)])
+                    else:
+                        return random.choice([self.salty_scale][0])
 
   
                 
