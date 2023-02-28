@@ -40,7 +40,8 @@ class chat(actor):
         for i in range (len(CORPUS['input'])):
             for x in tokenizedinput:
                 if x in CORPUS['input']:
-                    return random.choice([x][self.salty_scale])
+                    print(x)
+                    return random.choice([self.salty_scale])
 
   
                 
