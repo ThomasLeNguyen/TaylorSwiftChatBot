@@ -20,26 +20,31 @@ class chat(actor):
 
     def get_output(self,msg_input):
         sent = sia.polarity_scores(msg_input)
-
+        tokenizedinput = nltk.word_tokenize(msg_input)
         if sent['neu'] > .3:
            self.salty_scale =  "MEDIUM"
         if sent['neg'] > .4:
             self.salty_scale =  "SALTY"
         if sent['pos'] > .6:
             self.salty_scale =  "SWEET"
-
+        
         pos_tags =  nltk.pos_tag( nltk.word_tokenize(msg_input))
-        if msg_input in CORPUS['input']:
-            return random.choice(CORPUS['input'][msg_input][self.salty_scale])
-        else:
-            msg = None
-            for i in range( len(CORPUS[ "misc corpus" ]) ):
-                msg = random.choice( CORPUS[ "misc corpus" ] )
-                if msg not in self.prev_msgs:
-                    break
+        msg = None
+        for i in range (len[CORPUS['input']]):
+            for i in tokenizedinput:
+                if tokenizedinput[i] in CORPUS['input']
+                    return random.choice(CORPUS['input'][tokenizedinput[i]][self.salty_scale])
+       # if msg_input in CORPUS['input']:
+        #    return random.choice(CORPUS['input'][msg_input][self.salty_scale])
+        #else:
+         #   msg = None
+          #  for i in range( len(CORPUS[ 'misc corpus' ]) ):
+           #     msg = random.choice( CORPUS[ 'misc corpus' ] )
+            #    if msg not in self.prev_msgs:
+             #       break
 
         if msg == None:
-            return [ random.choice( CORPUS[ "misc corpus" ] ) ]
+            return [ random.choice( CORPUS[ 'misc corpus' ] ) ]
         else:
             return [ msg ]
 
