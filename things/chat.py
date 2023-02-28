@@ -33,6 +33,7 @@ class chat(actor):
         print(tokenizedinput)
         for x in tokenizedinput:
             print(x)
+            print(x.lower())
         for i in range (len(CORPUS['input'])):
             for x in tokenizedinput:
                 if x in CORPUS['input']:
