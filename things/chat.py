@@ -32,11 +32,11 @@ class chat(actor):
         msg = None
         print(tokenizedinput)
         for x in tokenizedinput:
-            print(tokenizedinput[x])
+            print(x)
         for i in range (len(CORPUS['input'])):
             for x in tokenizedinput:
-                if tokenizedinput[x] in CORPUS['input']:
-                    return random.choice(CORPUS['input'][tokenizedinput[x]][self.salty_scale])
+                if x in CORPUS['input']:
+                    return random.choice(CORPUS['input'][x][self.salty_scale])
        # if msg_input in CORPUS['input']:
         #    return random.choice(CORPUS['input'][msg_input][self.salty_scale])
         #else:
