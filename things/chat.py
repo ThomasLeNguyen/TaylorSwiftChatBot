@@ -35,7 +35,7 @@ class chat(actor):
             print(x)
         for i in range (len(CORPUS['input'])):
             for x in tokenizedinput:
-                if x in CORPUS['input']:
+                if x.casefold() in CORPUS['input']:
                     return random.choice(CORPUS['input'][x][self.salty_scale])
        # if msg_input in CORPUS['input']:
         #    return random.choice(CORPUS['input'][msg_input][self.salty_scale])
