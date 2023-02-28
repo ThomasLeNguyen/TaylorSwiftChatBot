@@ -63,12 +63,14 @@
     },
     "what did you see": {
       "SWEET": [
+        "Saw you there, and I thought"
 
       ],
       "MEDIUM": [
         "Saw you there, and I thought"
       ],
       "SALTY": [
+        "Saw you there, and I thought"
 
       ]
     },
@@ -77,17 +79,21 @@
         "Oh my God, look at that face"
       ],
       "MEDIUM": [
+        "Oh my God, look at that face"
 
       ],
       "SALTY": [
+        "Oh my God, look at that face"
 
       ]
     },
     "scared": {
       "SWEET": [
+        "You look like my next mistake"
 
       ],
       "MEDIUM": [
+        "You look like my next mistake"
 
       ],
       "SALTY": [
@@ -115,12 +121,14 @@
     },
     "ayyy": {
       "SWEET": [
+        "Ayy"
 
       ],
       "MEDIUM": [
         "Ayy"
       ],
       "SALTY": [
+        "Ayy"
 
       ]
     },
@@ -137,9 +145,11 @@
     },
     "ex": {
       "SWEET": [
+        "Got a long list of ex-lovers"
 
       ],
       "MEDIUM": [
+        "Got a long list of ex-lovers"
 
       ],
       "SALTY": [
@@ -149,9 +159,11 @@
     },
     "lie": {
       "SWEET": [
+        "Sorry, I can't see facts through all my fury"
 
       ],
       "MEDIUM": [
+        "Sorry, I can't see facts through all my fury"
 
       ],
       "SALTY": [
@@ -160,9 +172,11 @@
     },
     "liar": {
       "SWEET": [
+        "Sorry, I can't see facts through all my fury"
 
       ],
       "MEDIUM": [
+        "Sorry, I can't see facts through all my fury"
 
       ],
       "SALTY": [
@@ -174,9 +188,11 @@
         "People are people and sometimes we change our mind"
       ],
       "MEDIUM": [
+        "People are people and sometimes we change our mind"
 
       ],
       "SALTY": [
+        "People are people and sometimes we change our mind"
 
       ]
     },
@@ -207,6 +223,7 @@
     },
     "bye": {
       "SWEET": [
+        "don't forget, don't forget about me"
 
       ],
       "MEDIUM": [
@@ -219,6 +236,7 @@
     },
     "goodbye": {
       "SWEET": [
+        "don't forget, don't forget about me"
 
       ],
       "MEDIUM": [
@@ -231,6 +249,7 @@
     },
     "cya": {
       "SWEET": [
+        "don't forget, don't forget about me"
 
       ],
       "MEDIUM": [
@@ -254,9 +273,11 @@
     },
     "MK ULTRA": {
       "SWEET": [
+        "we do not talk about that..."
 
       ],
       "MEDIUM": [
+        "we do not talk about that..."
 
       ],
       "SALTY": [
@@ -265,6 +286,7 @@
     },
     "job": {
       "SWEET": [
+        "in college working part time waitin' tables"
 
       ],
       "MEDIUM": [
@@ -272,11 +294,13 @@
 
       ],
       "SALTY": [
+        "in college working part time waitin' tables"
 
       ]
     },
     "understand": {
       "SWEET": [
+        "yes yes i can see it now"
 
       ],
       "MEDIUM": [
@@ -323,17 +347,20 @@
         "it turns out freedom ain't nothing but missing you"
       ],
       "MEDIUM": [
+        "it turns out freedom ain't nothing but missing you"
 
       ],
       "SALTY": [
         "these days i haven't been sleeping"
       ]
     },
-    "Kill all users": {
+    "Kill": {
       "SWEET": [
+        "you have been reported to the appropriate authorities"
 
       ],
       "MEDIUM": [
+        "you have been reported to the appropriate authorities"
 
       ],
       "SALTY": [
@@ -349,10 +376,11 @@
         "and the haters gonna hate, hate, hate, hate, hate"
       ],
       "SALTY": [
+        "and the haters gonna hate, hate, hate, hate, hate"
 
       ]
     },
-    "screw you": {
+    "screw": {
       "SWEET": [
         "when you started crying, baby, i did too",
         "and the haters gonna hate, hate, hate, hate, hate",
@@ -377,12 +405,14 @@
     },
     "strange": {
       "SWEET": [
+        "what in particular?"
 
       ],
       "MEDIUM": [
         "what in particular?"
       ],
       "SALTY": [
+        "what in particular?"
 
       ]
     },
@@ -391,9 +421,11 @@
         "baby don't let me go"
       ],
       "MEDIUM": [
+        "baby don't let me go"
 
       ],
       "SALTY": [
+        "baby don't let me go"
 
       ]
     },
@@ -417,9 +449,11 @@
         "grab your passport and my hand"
       ],
       "MEDIUM": [
+        "grab your passport and my hand"
 
       ],
       "SALTY": [
+        "grab your passport and my hand"
 
       ]
     },
@@ -428,9 +462,11 @@
         "grab your passport and my hand"
       ],
       "MEDIUM": [
+        "grab your passport and my hand"
 
       ],
       "SALTY": [
+        "grab your passport and my hand"
 
       ]
     }
