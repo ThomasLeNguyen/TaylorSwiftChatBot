@@ -6,3 +6,4 @@ class actor:
     def save_msg(self, msg):
         self.prev_msgs.append(msg)
 
+
