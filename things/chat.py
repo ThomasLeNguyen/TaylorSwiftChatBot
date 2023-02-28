@@ -40,26 +40,14 @@ class chat(actor):
         for i in range (len(CORPUS['input'])):
             for x in tokenizedinput:
                 if x in CORPUS['input']:
-                    print(type(CORPUS['input']))
-                    print(CORPUS['input'].keys())
-                    #return random.choice(CORPUS['input'][self.salty_scale][0])
-                    return "hi"
-
-  
-                
-
-
-       # if msg_input in CORPUS['input']:
-        #    return random.choice(CORPUS['input'][msg_input][self.salty_scale])
-        #else:
-         #   msg = None
-          #  for i in range( len(CORPUS[ 'misc corpus' ]) ):
-           #     msg = random.choice( CORPUS[ 'misc corpus' ] )
-            #    if msg not in self.prev_msgs:
-             #       break
-
-        if msg == None:
-            return [ random.choice( CORPUS[ 'misc corpus' ] ) ]
-        else:
-            return [ msg ]
+                    size = len(CORPUS['input'][x][salty_scale])
+                    # print(size)
+                    # print(type(CORPUS['input']))
+                    # print(CORPUS['input'].keys())
+                    # print(type(print(CORPUS['input'][x][salty_scale])))
+                    print(response:=CORPUS['input'][x][salty_scale][random.randint(0,size-1)])
+                    return response
+                else:
+                    print(response:=random.choice(CORPUS['misc corpus']))
+                    return response
 
