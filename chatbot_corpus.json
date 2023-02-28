@@ -371,7 +371,7 @@
       ]
     },
 
-    "misc corpus": [
+    "misc corpus": {
       "oh-oh oh-oh",
       "you were in college working part time waitin' tables",
       "left a small town never looked back",
@@ -1063,7 +1063,7 @@
       "hidden message you always regret what you don't say",
       ". dear john"
 
-    ]
+    
 
   }
 
