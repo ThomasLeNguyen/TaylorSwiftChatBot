@@ -30,7 +30,7 @@ class chat(actor):
         
         pos_tags =  nltk.pos_tag( nltk.word_tokenize(msg_input))
         msg = None
-        for i in range (len[CORPUS['input']]):
+        for i in range (len(CORPUS['input'])):
             for i in tokenizedinput:
                 stringcheck = tokenizedinput[i]
                 if stringcheck in CORPUS['input']:
