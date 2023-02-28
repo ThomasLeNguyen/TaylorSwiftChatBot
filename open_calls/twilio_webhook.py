@@ -32,11 +32,10 @@ def handle_request():
     act.save_msg(request.form['Body'])
     output = act.get_output(request.form['Body'])
 
-    for o_msg in output:
-         message = g.sms_client.messages.create(
-                     body=o_msg,
-                     from_=yml_configs['twilio']['phone_number'],
-                     to=request.form['From'])
+    message = g.sms_client.messages.create(
+        body=o_msg,
+        from_=yml_configs['twilio']['phone_number'],
+        to=request.form['From'])
 
     with open(f"users/{request.form['From']}.pkl", 'wb') as p:
          pickle.dump( act, p)
