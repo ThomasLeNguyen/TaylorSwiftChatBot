@@ -20,7 +20,11 @@ class chat(actor):
 
     def get_output(self,msg_input):
         sent = sia.polarity_scores(msg_input)
-        tokenizedinput = nltk.word_tokenize(msg_input)
+        basetokenizedinput = nltk.word_tokenize(msg_input)
+        tokenizedinput = []
+        for y in basetokenizedinput:
+            tokenizedinput.append(y.lower())
+
         if sent['neu'] > .3:
            self.salty_scale =  "MEDIUM"
         if sent['neg'] > .4:
@@ -31,10 +35,7 @@ class chat(actor):
         pos_tags =  nltk.pos_tag( nltk.word_tokenize(msg_input))
         msg = None
         print(tokenizedinput)
-        for x in tokenizedinput:
-            x = x.lower()
-        for x in tokenizedinput:
-            print(x)
+
         for i in range (len(CORPUS['input'])):
             for x in tokenizedinput:
                 if x in CORPUS['input']:
