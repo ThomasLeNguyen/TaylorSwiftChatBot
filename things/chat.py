@@ -37,7 +37,6 @@ class chat(actor):
         print(tokenizedinput)
 
 
-        This is the block of code that was working for matching a single word
         for i in range (len(CORPUS['input'])):
             for x in tokenizedinput:
                 if x in CORPUS['input']:
