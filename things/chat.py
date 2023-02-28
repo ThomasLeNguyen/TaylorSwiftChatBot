@@ -36,10 +36,19 @@ class chat(actor):
         msg = None
         print(tokenizedinput)
 
+
+        #This is the block of code that was working for matching a single word
+        #for i in range (len(CORPUS['input'])):
+           # for x in tokenizedinput:
+             #   if x in CORPUS['input']:
+             #       return random.choice(CORPUS['input'][x][self.salty_scale])
+
         for i in range (len(CORPUS['input'])):
-            for x in tokenizedinput:
-                if x in CORPUS['input']:
-                    return random.choice(CORPUS['input'][x][self.salty_scale])
+            if CORPUS['input'] in msg_input:
+                return random.choice(CORPUS['input'][self.salty_scale])
+                
+
+
        # if msg_input in CORPUS['input']:
         #    return random.choice(CORPUS['input'][msg_input][self.salty_scale])
         #else:

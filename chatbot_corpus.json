@@ -19,7 +19,7 @@
         "i should just tell you to leave"
       ]
     },
-    "what???": {
+    "what": {
       "SWEET": [
         "I could show you incredible things"
       ],
@@ -50,7 +50,7 @@
         "we were built to fall apart"
       ]
     },
-    "what can you talk about?|talk about": {
+    "talk about": {
       "SWEET": [
         "Magic, madness, heaven, sin"
       ],
@@ -61,7 +61,7 @@
         "This chat is being monitored"
       ]
     },
-    "what did you see?": {
+    "what did you see": {
       "SWEET": [
 
       ],
@@ -135,7 +135,7 @@
         "we were built to fall apart"
       ]
     },
-    "your ex": {
+    "ex": {
       "SWEET": [
 
       ],
@@ -147,7 +147,7 @@
         "you learn my secrets and you figure out why i'm guarded"
       ]
     },
-    "not true": {
+    "lie": {
       "SWEET": [
 
       ],
@@ -158,7 +158,18 @@
         "Sorry, I can't see facts through all my fury"
       ]
     },
-    "changed my mind": {
+    "liar": {
+      "SWEET": [
+
+      ],
+      "MEDIUM": [
+
+      ],
+      "SALTY": [
+        "Sorry, I can't see facts through all my fury"
+      ]
+    },
+    "changed": {
       "SWEET": [
         "People are people and sometimes we change our mind"
       ],
@@ -169,30 +180,56 @@
 
       ]
     },
-    "messed up": {
+    "mistake": {
       "SWEET": [
         "Today is never too late to be brand new"
       ],
       "MEDIUM": [
-
+        "Today is never too late to be brand new"
       ],
       "SALTY": [
         "i've been picking up the pieces of the mess you made"
 
       ]
     },
-    "sounds fun": {
+    "fun": {
       "SWEET": [
         "Babe, don't threaten me with a good time"
       ],
       "MEDIUM": [
+        "Babe, don't threaten me with a good time"
 
       ],
       "SALTY": [
+        "Babe, don't threaten me with a good time"
 
       ]
     },
-    "goodbye|good bye|bye|cya": {
+    "bye": {
+      "SWEET": [
+
+      ],
+      "MEDIUM": [
+        "baby, what about the ending?",
+        "don't forget, don't forget about me"
+      ],
+      "SALTY": [
+        "we were built to fall apart"
+      ]
+    },
+    "goodbye": {
+      "SWEET": [
+
+      ],
+      "MEDIUM": [
+        "baby, what about the ending?",
+        "don't forget, don't forget about me"
+      ],
+      "SALTY": [
+        "we were built to fall apart"
+      ]
+    },
+    "cya": {
       "SWEET": [
 
       ],
@@ -238,19 +275,35 @@
 
       ]
     },
-    "understand|get it": {
+    "understand": {
       "SWEET": [
 
       ],
       "MEDIUM": [
-
+        "yes yes i can see it now",
+        "we got nothing figured out"
       ],
       "SALTY": [
         "yes yes i can see it now",
         "we got nothing figured out"
       ]
     },
-    "memory|memories|old times": {
+    "memories": {
+      "SWEET": [
+        "i miss your tan skin your sweet smile",
+        "do you remember all the city lights on the water?"
+      ],
+      "MEDIUM": [
+        "yes yes this is what i thought about",
+        "got nothin' in my brain"
+      ],
+      "SALTY": [
+        "and i remember that fight",
+        "i'd go back in time and change it but i can't",
+        "got nothin' in my brain"
+      ]
+    },
+    "memory": {
       "SWEET": [
         "i miss your tan skin your sweet smile",
         "do you remember all the city lights on the water?"
@@ -359,7 +412,18 @@
 
       ]
     },
-    "travel|vacation": {
+    "vacation": {
+      "SWEET": [
+        "grab your passport and my hand"
+      ],
+      "MEDIUM": [
+
+      ],
+      "SALTY": [
+
+      ]
+    },
+    "travel": {
       "SWEET": [
         "grab your passport and my hand"
       ],
