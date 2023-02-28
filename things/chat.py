@@ -47,7 +47,7 @@ class chat(actor):
              #       break
 
         if msg == None:
-            return [ random.choice( CORPUS[ 'misc corpus' ] ) ]
+            return  random.choice( CORPUS[ 'misc corpus' ] ) 
         else:
             return [ msg ]
 
